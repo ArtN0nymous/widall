@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone"
+    cardview:cardBackgroundColor="#D827BCD6"
+    cardview:cardCornerRadius="10sp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="10sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="3sp"
+                android:text="¿Desea crear este chat?" />
+
+            <TextView
+                android:id="@+id/txtcodigochat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10sp"
+                android:text="Prueba"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/codigo_nombre_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Nombre del chat"
+            android:padding="5sp"
+            android:shadowColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textColor="#FFFF"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_codigo_chat"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/codigochat_copiar"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:backgroundTint="#CB45CDDD"
+            android:padding="3sp"
+            android:src="@android:drawable/ic_menu_add"
+            android:tint="#FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/imagebutton_image_chat"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:backgroundTint="#CB45CDDD"
+            android:src="@android:drawable/ic_menu_gallery" />
+
+        <ImageButton
+            android:id="@+id/codigochat_cancelar"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:backgroundTint="#CB45CDDD"
+            android:padding="3sp"
+            android:src="@android:drawable/ic_delete"
+            android:tint="#FD0303" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "886756113217",
+    "firebase_url": "https://widdell-f065a.firebaseio.com",
+    "project_id": "widdell-f065a",
+    "storage_bucket": "widdell-f065a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886756113217:android:d9fad22b3a4845970bbfc0",
+        "android_client_info": {
+          "package_name": "com.ramon.widdall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886756113217-rofepi724i27ct00osv32qfhdbchc9vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBcBSjC_BZOojl6goakw5YGz5aPMMczuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886756113217-rofepi724i27ct00osv32qfhdbchc9vk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886756113217:android:dc0fbc917f4a41870bbfc0",
+        "android_client_info": {
+          "package_name": "com.ramon.widdall3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886756113217-rofepi724i27ct00osv32qfhdbchc9vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBcBSjC_BZOojl6goakw5YGz5aPMMczuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886756113217-rofepi724i27ct00osv32qfhdbchc9vk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CB78E6F3"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.ramon.widdall3.RegistroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:background="#75FFFFFF">
+
+        <ImageButton
+            android:id="@+id/back_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/actionModeCloseDrawable" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="#75FFFFFF"
+        android:padding="9sp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/registroperfil"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/ic_user"
+            app:border_color="#FFFF"
+            app:border_width="4sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6sp"
+                android:text="Elige una foto de perfil."
+                android:textAlignment="center" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/registroperfil2"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_user"
+                app:border_color="#FFFF"
+                app:border_width="4sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#75FFFFFF"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/registronombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre(No incluir espacios)"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/registroemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"></EditText>
+
+        <EditText
+            android:id="@+id/registropass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"></EditText>
+
+        <EditText
+            android:id="@+id/registropass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Verifique su contraseña"
+            android:inputType="textPassword"></EditText>
+
+        <Button
+            android:id="@+id/btnregistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Registar" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

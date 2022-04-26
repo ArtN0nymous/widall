@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    cardview:cardCornerRadius="10sp"
+    cardview:cardUseCompatPadding="true"
+    android:id="@+id/tarjetaChat"
+    android:background="#CB45CDDD">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#CB45CDDD">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/fotoperfil_del_chat"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
+                android:src="@mipmap/ic_launcher"
+                cardview:border_width="2sp"
+                cardview:border_color="#0693DF">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nombre_del_chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5sp"
+                android:text="Nombre del chat"
+                android:textColor="#000000"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/mensaje_del_chat"
+                android:layout_width="300sp"
+                android:layout_height="30sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5sp"
+                android:text="mensaje"
+                android:textColor="#085DDD" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

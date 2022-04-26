@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    cardview:cardBackgroundColor="#C9FFFFFF"
+    cardview:cardCornerRadius="10sp"
+    android:id="@+id/cardChats">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#75FFFFFF"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/enviarfoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_menu_gallery">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/camara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:drawable/ic_menu_camera">
+
+        </ImageButton>
+
+        <EditText
+            android:id="@+id/txtmensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Escribe un mensaje" />
+
+        <Button
+            android:id="@+id/btenviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Enviar" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
